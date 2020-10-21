@@ -1,7 +1,7 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark mb-3">
     <div class="container">
-        <router-link tag="a" :to = "{name: 'home'}" class="navbar-brand">Shopping Cart</router-link>
+        <router-link tag="a" :to = "{name: 'home'}" class="navbar-brand"> DBShop </router-link>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -16,6 +16,7 @@
         </div>
     </div>
 </nav>
+
 </template>
 
 <script>
